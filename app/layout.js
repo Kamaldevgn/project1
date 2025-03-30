@@ -18,12 +18,16 @@ import Footer from '@/components/Footer';
 export default function Layout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <div className="min-h-screen flex flex-col bg-gray-50">
-          <Header />
-          <main className="flex-1 container mx-auto p-4">{children}</main>
-          <Footer />
-        </div>
+      <body className="bg-[#141414]">
+        <main className="mx-auto py-32 relative max-w-2xl min-h-screen overflow-hidden sm:overflow-visible px-6 sm:px-0">
+          <div className="min-h-screen flex flex-col">
+            {/* <Header /> */}
+            <main>
+              {children}
+            </main>
+            {/* <Footer /> */}
+          </div>
+        </main>
       </body>
     </html>
   );
