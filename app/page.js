@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import EmailSection from '../components/EmailSection';
 
 export default function Home() {
   return (
@@ -9,15 +10,15 @@ export default function Home() {
           <Image 
             src="/me.jpg" 
             alt="Kamal" 
-            width={48} 
-            height={48} 
+            width={55} 
+            height={55} 
             className="rounded-full mb-3 object-cover"
             priority
           />
-          <p className="text-lg font-semibold text-zinc-300 ">Kamal</p>
-          <p className="text-xs font-semibold text-neutral-500 font-poppins">Frontend Developer</p>
+          <p className="text-3xl font-semibold text-zinc-300 ">Kamal</p>
+          <p className="text-ls font-semibold text-neutral-500 font-poppins">Frontend Developer</p>
         </div>
-        <div className=" mb-5 flex gap-3 items-center text-sm">
+        <div className=" mb-5 flex gap-3 items-center text-m">
           <a href="/.">Home</a>
           <a href="./Projects">Projects</a>
           <a href="./Projects/contact">Contact</a>
@@ -51,6 +52,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <EmailSection />
+
     </section>
   );
 }
