@@ -1,9 +1,19 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <section>
       {/* introduction section */}
       <div className="my-5 flex items-center justify-between">
-        <div className="flex flex-col w-full h-full"> 
+        <div className="flex flex-col items-center"> 
+          <Image 
+            src="/me.jpg" 
+            alt="Kamal" 
+            width={48} 
+            height={48} 
+            className="rounded-full mb-3 object-cover"
+            priority
+          />
           <p className="text-lg font-semibold text-zinc-300 ">Kamal</p>
           <p className="text-xs font-semibold text-neutral-500 font-poppins">Frontend Developer</p>
         </div>
