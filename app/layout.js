@@ -18,8 +18,8 @@ import Footer from '@/components/Footer';
 export default function Layout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-[#141414]">
-        <main className="mx-auto py-32 relative max-w-2xl min-h-screen overflow-hidden sm:overflow-visible px-6 sm:px-0">
+      <body className="md:max-w-2xl md:px-0 px-4 mx-auto mt-8 bg-[#141414]">
+        <main>
           <div className="min-h-screen flex flex-col">
             {/* <Header /> */}
             <main>
@@ -32,3 +32,5 @@ export default function Layout({ children }) {
     </html>
   );
 }
+
+// className="mx-auto py-32 relative max-w-2xl min-h-screen overflow-hidden sm:overflow-visible px-6 sm:px-0"
