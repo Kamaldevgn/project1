@@ -13,7 +13,7 @@ export default function EmailSection() {
   const [hovered, setHovered] = useState('');
 
   return (
-    <div className="mt-10 flex items-center gap-4">
+    <div className="mt-5 flex items-center gap-4">
       {/* Interactive SVGs */}
       <div className="flex gap-4" onMouseLeave={() => setHovered('')}>
         {/* Mail SVG */}
