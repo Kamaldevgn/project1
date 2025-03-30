@@ -8,9 +8,9 @@ export default function Home() {
           <p className="text-xs font-semibold text-neutral-500 font-poppins">Frontend Developer</p>
         </div>
         <div className=" mb-5 flex gap-3 items-center text-sm">
-          <a href="">Home</a>
-          <a href="">Projects</a>
-          <a href="">Contact</a>
+          <a href="/.">Home</a>
+          <a href="./Projects">Projects</a>
+          <a href="./Projects/contact">Contact</a>
           <div className="flex gap-1 items-center">
             <a target="_blank" className="p-[0.3rem] hover:bg-white rounded-md hover:text-black transition-colors duration-400" href="https://www.linkedin.com/in/kamalpreet-singh-a54351322/">
               <svg
