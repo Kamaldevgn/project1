@@ -24,7 +24,7 @@ const Navbar = () => {
           className="rounded-full mb-3 object-cover"
           priority
         />
-        <p className="text-3xl font-semibold text-zinc-300">Kamal</p>
+        <p className="text-3xl font-semibold text-zinc-300">KAMAL</p>
         <p className="text-ls font-semibold text-neutral-500 font-poppins">Frontend Developer</p>
       </div>
       <div className="mb-5 flex gap-3 items-center text-m">

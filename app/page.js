@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import EmailSection from '../components/EmailSection';
 import About from '../components/About';
 import Project from '../components/Project';
+import TechStack from '../components/TechStack';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <EmailSection />
       <Project/>
+      <TechStack/>
 
     </section>
   );
