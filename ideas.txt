@@ -14,6 +14,7 @@ To make your portfolio stand out and serve your goals, follow these suggestions:
 	•	Mention both soft and hard skills.
 	•	Group them into categories: Frontend, Backend, Database, and Tools.
 
+    done ---------------
 ✅ 3. Testimonials or Recommendations (Optional)
 	•	If you have any positive feedback from professors, peers, or clients, add a small testimonials section.
 

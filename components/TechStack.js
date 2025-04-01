@@ -30,7 +30,7 @@ const TechStackSection = () => {
       <div className="grid gap-4 md:grid-cols-2">
         {Object.entries(skills).map(([category, items]) => (
           <div key={category} className="p-3">
-            <h3 className="text-lg font-bold mb-2">{category}</h3>
+            <h3 className="text-xl font-bold mb-2">{category}</h3>
             <div className="flex flex-wrap gap-2">
               {items.map((item, index) => (
                 <a key={index} href={item.link} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-gray-800 rounded-lg text-gray-300 text-sm hover:bg-gray-700 hover:text-white transition duration-300">
